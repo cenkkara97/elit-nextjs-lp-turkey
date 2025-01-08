@@ -8,9 +8,9 @@ export default function NavHeader() {
           <Image
             src="/assets/images/navbar-logo.png"
             alt="Company Logo"
-            width={180}
-            height={44}
-            className="w-auto h-auto"
+            width={140}
+            height={50}
+            className="h-12 w-auto"
           />
         </div>
       </div>
