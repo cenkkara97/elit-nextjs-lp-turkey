@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss";
-
-export default {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: ["class"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -20,7 +20,6 @@ export default {
 			secondaryBlue: '#013366',
 			primaryOrange: '#F88755',
 			sectionSecondary: '#F0F0F2',
-			formBlue: "#5899F1",
 			txtLight: '#F5F5F7',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -89,4 +88,5 @@ export default {
   	}
   },
   plugins: [],
-} satisfies Config;
+}
+
